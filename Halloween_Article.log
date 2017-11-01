@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.27)  1 NOV 2017 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.27)  1 NOV 2017 14:42
 entering extended mode
 **./Halloween_Article.tex
 (Halloween_Article.tex
@@ -85,18 +85,18 @@ tim
 (Halloween_Article.aux)
 \openout1 = `Halloween_Article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -157,38 +157,38 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 58.
+(Font)              <12> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 58.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 58.
+(Font)              <6> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 65.
+(Font)              <7> on input line 68.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 65.
-Package color Info: Redefining color shadecolor on input line 71.
+(Font)              <5> on input line 68.
+Package color Info: Redefining color shadecolor on input line 74.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 73.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 76.
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 84--84
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 87--87
 []\OT1/cmtt/m/n/10 ##   gutenberg_id             title                         
     author[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 84--84
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 87--87
 []\OT1/cmtt/m/n/10 ##          <int>             <chr>                         
      <chr>[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 84--84
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 87--87
 []\OT1/cmtt/m/n/10 ## 1        31469 The Shunned House Lovecraft, H. P. (Howard
  Phillips)[] 
  []
 
 
-Overfull \hbox (43.49661pt too wide) in paragraph at lines 84--84
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 87--87
 []\OT1/cmtt/m/n/10 ## # ... with 5 more variables: gutenberg_author_id <int>, l
 anguage <chr>,[] 
  []
@@ -196,32 +196,35 @@ anguage <chr>,[]
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package color Info: Redefining color shadecolor on input line 116.
-Package color Info: Redefining color shadecolor on input line 129.
+Package color Info: Redefining color shadecolor on input line 119.
+Package color Info: Redefining color shadecolor on input line 132.
  [2]
-Package color Info: Redefining color shadecolor on input line 159.
-Package color Info: Redefining color shadecolor on input line 188.
+Package color Info: Redefining color shadecolor on input line 162.
+Package color Info: Redefining color shadecolor on input line 191.
  [3]
-Package color Info: Redefining color shadecolor on input line 218.
+Package color Info: Redefining color shadecolor on input line 221.
 
-<figure/unnamed-chunk-6-1.pdf, id=22, 505.89pt x 505.89pt>
-File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
+<figure/unnamed-chunk-7-1.pdf, id=22, 505.89pt x 505.89pt>
+File: figure/unnamed-chunk-7-1.pdf Graphic file (type pdf)
 
-<use figure/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 224.
+<use figure/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf used on input line 227.
 (pdftex.def)             Requested size: 345.0pt x 345.00414pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 224--225
+Overfull \hbox (15.0pt too wide) in paragraph at lines 227--228
 [][] 
  []
 
-(Halloween_Article.bbl [4 <./figure/unnamed-chunk-6-1.pdf>]) [5]
+(Halloween_Article.bbl [4 <./figure/unnamed-chunk-7-1.pdf>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+) [5]
 (Halloween_Article.aux) ) 
 Here is how much of TeX's memory you used:
- 1984 strings out of 493323
- 27316 string characters out of 3139062
- 94813 words of memory out of 3000000
- 5507 multiletter control sequences out of 15000+200000
+ 2002 strings out of 493323
+ 27622 string characters out of 3139062
+ 94997 words of memory out of 3000000
+ 5525 multiletter control sequences out of 15000+200000
  8401 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,25p,426b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -236,7 +239,7 @@ fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 msfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb>
-Output written on Halloween_Article.pdf (5 pages, 154828 bytes).
+Output written on Halloween_Article.pdf (5 pages, 158630 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

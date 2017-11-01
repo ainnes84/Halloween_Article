@@ -1,6 +1,12 @@
 \documentclass{article}
 \usepackage{natbib}
 
+<<echo=FALSE>>=
+packages<-c('dplyr','stringr','tidytext','wordcloud','tm','janeaustenr')
+knitr::write_bib(packages,file='package.bib')
+@
+
+
 \begin{document}
 
 \title{The Shunned House Wordcloud}
@@ -77,7 +83,7 @@ wordcloud(word_freq$word,word_freq$count,min.freq = 5)
 @
 
 \bibliographystyle{apa}
-\bibliography{Halloween_Article}
+\bibliography{Halloween_Article,package}
 \nocite{*}
 
 \end{document}
