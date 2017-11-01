@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{natbib}
+
+\begin{document}
+
+\title{The Shunned House Wordcloud}
+\author{Andrew Innes}
+\maketitle
+
+\begin{abstract}
+In this article we construct a wordcloud, using the tidytext R package, for H.P. Lovecraft's The Shunned House.
+
+\end{abstract}
+
+\textit{The Shunned House} is a horror fiction novelette by American author H.P. Lovecraft, published in 1937\footnote{The novel was published in the October 1937 issue of Weird Tales.}.  Below we craft a wordcloud for the most common words appearing in the novelette.
+
+\section{The Gutenberg Package}
+The Gutenberg Package is a package for R, gutenbergr, that gives one access to the books in Project Gutenberg.  One has to first install this package and bring it in with library.  You may then call the following function and store the result.  Since we will be using The Shunned House we will download it using its unique integer identifier.  In order to do this we must execute the following code:
+
+<<warning=FALSE,message=FALSE>>=
+library(gutenbergr)
+library(stringr)
+gutenberg_works(str_detect(title,'The Shunned House'))
+
+House<-gutenberg_download(31469)
+
+House
+@
+
+This dataframe has two columns, one for the The ID Number of the book, and one containing the text from the book. Now we are ready for very litte data cleaning.
+
+\section{Very Little Data Cleaning}
+
+We would like to remove the front matter of the book.  By inspection, we have determined that the front matter ends on line 6.  Therefore we can redefine House to begin on line 7:
+
+<<warning=FALSE,message=FALSE>>=
+library(dplyr)
+House<-House[7:1055,]
+@
+
+\section{The Wordcloud}
+
+To make the wordcloud, we first have to break up the lines into words.  We can use a function from the tidytext package for this:
+
+<<warning=FALSE,message=FALSE>>=
+library(tidytext)
+words_df<-House%>%
+  unnest_tokens(word,text)
+
+words_df
+@
+
+We can remove the common, unimportant words with the stop\_words data frame and some dplyr:
+
+<<>>=
+words_df<-words_df%>%
+  filter(!(word %in% stop_words$word))
+
+words_df
+@
+
+Now, we need to calculate the frequencies of the words in the novelette.  Again, we can use standard dplyr techniques for this:
+
+<<>>=
+word_freq<-words_df%>%
+  group_by(word)%>%
+  summarize(count=n())
+
+word_freq
+@
+
+Finally, it's time to generate the wordcloud:
+
+<<warning=FALSE,message=FALSE>>=
+library(wordcloud)
+wordcloud(word_freq$word,word_freq$count,min.freq = 5)
+@
+
+\bibliographystyle{apa}
+\bibliography{Halloween_Article}
+\nocite{*}
+
+\end{document}
